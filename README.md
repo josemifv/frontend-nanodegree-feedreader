@@ -39,7 +39,7 @@ You will learn how to use Jasmine to write a number of tests against a pre-exist
 14. When complete - all of your tests should pass.
 
 ## Running the tests
-Just visit the following [link](http://josemifv.github.io/frontend-nanodegree-neighborhood-map/).
+Just open `index.html` in your favourite browser.
 
 ## Not required tests added
 A new test suite called "Feed entries" has been added with the following tests:
