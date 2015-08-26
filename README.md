@@ -37,3 +37,23 @@ You will learn how to use Jasmine to write a number of tests against a pre-exist
 12. Write a test that ensures when the loadFeed function is called and completes its work, there is at least a single .entry element within the .feed container. Remember, loadFeed() is asynchronous so this test wil require the use of Jasmine's beforeEach and asynchronous done() function.
 13. Write a test that ensures when a new feed is loaded by the loadFeed function that the content actually changes. Remember, loadFeed() is asynchronous.
 14. When complete - all of your tests should pass.
+
+## Running the tests
+Just visit the following [link](http://josemifv.github.io/frontend-nanodegree-neighborhood-map/).
+
+## Not required tests added
+A new test suite called "Feed entries" has been added with the following tests:
+* All feed entries have a valid URL attribute ("href");
+* All feed entries have a heading title and it is not empty.
+* All feed entries have a content and it is not empty (*this test fails*).
+* All feed entries have a related image (*this test fails*).
+* All read entries have a different style given by CSS class "read" (*this test fails*).
+
+## Important note
+No required tests were added to exceed specifications. As stated in the evaluation sheet, there tests are allowed to fail.
+
+## Resources used to complete this project
+* [Udacity's JavaScript Testing course](https://www.udacity.com/course/javascript-testing--ud549).
+* [Jasmine official documentation (v2.1)](http://jasmine.github.io/2.1/introduction.html).
+* [JQuery API documentation](http://api.jquery.com/).
+* [StackOverflow website](http://stackoverflow.com/).
