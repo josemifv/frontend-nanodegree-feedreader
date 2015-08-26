@@ -27,7 +27,7 @@ $(function() {
         });
 
 
-        /** 
+        /**
          * Test that loops through each feed
          * in the allFeeds object and ensures it has a URL defined
          * and that the URL is not empty.
@@ -211,6 +211,6 @@ $(function() {
             $('.feed .entry-link').first().click();
             expect($('.feed .entry-link').first().hasClass('read')).toBe(true);
             done();
-        });        
+        });
     });
 }());
